@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--
+    “Bro, you been typing at **67 words per century**, not per minute. 
+    You built one rock paper scissors game and thought you reached divine status, 
+    but reality’s out here throwing syntax errors at your soul. That typing speed test? 
+    That’s your redemption arc. Hit that keyboard like it owes you **67 lines of clean code**, not **67 excuses**. 
+    Finish the damn project, or I swear your legacy’s gonna be ‘console.log(67);’ and nothing else.” 
+    - ChatGPT
+    -->
+
+    <div class="container">
+        <h1>Typing Speed Test👨‍💻</h1>
+
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-label">Time</div>
+                <div class="stat-value" id="timer">30</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">WPM</div>
+                <div class="stat-value" id="wpm">0.00</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Accuracy</div>
+                <div class="stat-value" id="accuracy">100.00%</div>
+            </div>
+        </div>
+
+        <div id="textDisplay" class="text-generator"></div>
+
+        <div class="user-interact">
+            <input type="text" id="textInput" placeholder="Click 'Start Test' to begin typing..." disabled>
+            <button id="startBtn" onclick="startBtn()" class="start-btn">Start Test</button>
+        </div>
+
+        <div class="resetbtn-wrapper">
+            <button class="resetBtn" onclick="location.reload()">Reset</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

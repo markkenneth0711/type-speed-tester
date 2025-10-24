@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    background: #ffffffd2;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #000;
+    margin-bottom: 40px;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat-label {
+    color: #999;
+    font-size: 0.8em;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.stat-value {
+    font-size: 1.8em;
+    font-weight: 300;
+    color: #000;
+}
+
+.text-generator {
+    color: #8d8d8d;
+    margin: 0.6rem;
+    letter-spacing: 1.5px;
+    width: 60rem;
+    text-align: center;
+    line-height: 2;
+}
+
+.user-interact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 3px;
+    margin-top: 1.8rem;
+}
+
+input {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    width: 40rem;
+    height: 2.5rem;
+    font-size: 0.9em;
+    border-radius: 15px;
+    padding: 8px;
+    color: rgb(63, 63, 63);
+    border-style: none;
+    margin-right: 0.4rem;
+    border: 1px solid rgb(190, 190, 190);
+}
+
+.start-btn {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    width: 6rem;
+    height: 2.5rem;
+    font-size: 0.9em;
+    border-radius: 15px;
+    padding: 4px;
+    border-style: none;
+    background-color: white;
+    margin-right: 0.4rem;
+    border: 1px solid rgb(190, 190, 190);
+}
+
+button:hover {
+    box-shadow: 1px 1px 3px grey;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 1px 1px 4px grey;
+}
+
+.resetbtn-wrapper {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.resetBtn {
+    height: 2rem;
+    width: 6rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid rgb(190, 190, 190);
+    font-size: 0.9rem;
+}
